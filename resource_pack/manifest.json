@@ -1,0 +1,22 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Player's Spell Book Resource Pack",
+    "description": "Spell Book art and localization (development v0.2.0)",
+    "uuid": "5b2f1a33-e79b-4065-a080-91bb82f412dc",
+    "version": [0, 2, 0],
+    "min_engine_version": [1, 26, 30]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "a0b7d3c8-e857-4632-83f7-b56c03fffb69",
+      "version": [0, 2, 0]
+    }
+  ],
+  "metadata": {
+    "authors": ["Player's Spell Book contributors"],
+    "license": "MIT",
+    "product_type": "addon"
+  }
+}

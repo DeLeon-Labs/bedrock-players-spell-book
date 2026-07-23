@@ -1,0 +1,26 @@
+{
+  "name": "bedrock-players-spell-book",
+  "version": "0.2.0",
+  "description": "A safe, kid-friendly spell book interface for Minecraft Bedrock utility actions.",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@11.15.0",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "validate": "node tools/validate.mjs",
+    "build": "node tools/build.mjs",
+    "clean": "node tools/clean.mjs",
+    "export": "pnpm run validate && pnpm run build && node tools/export.mjs"
+  },
+  "devDependencies": {
+    "@minecraft/server": "2.8.0",
+    "@minecraft/server-ui": "2.1.0",
+    "@types/node": "^24.0.0",
+    "esbuild": "^0.25.0",
+    "fflate": "^0.8.2",
+    "typescript": "^5.9.0"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Player's Spell Book Behavior Pack",
+    "description": "Safe spell actions and menus (development v0.2.0)",
+    "uuid": "e48a64f5-9768-4f03-8904-6d4c71cc3ecc",
+    "version": [0, 2, 0],
+    "min_engine_version": [1, 26, 30]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "4dd0bf78-8966-4cec-959a-87695284aa91",
+      "version": [0, 2, 0]
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+      "entry": "scripts/main.js",
+      "uuid": "85016376-864b-44ad-82b0-7e502f4984eb",
+      "version": [0, 2, 0]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "5b2f1a33-e79b-4065-a080-91bb82f412dc",
+      "version": [0, 2, 0]
+    },
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.8.0"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "2.1.0"
+    }
+  ],
+  "metadata": {
+    "authors": ["Player's Spell Book contributors"],
+    "license": "MIT",
+    "product_type": "addon"
+  }
+}

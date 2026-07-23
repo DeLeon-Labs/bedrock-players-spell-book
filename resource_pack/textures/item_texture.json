@@ -1,0 +1,9 @@
+{
+  "resource_pack_name": "players_spell_book",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "players_spell_book": {
+      "textures": "textures/items/players_spell_book"
+    }
+  }
+}
